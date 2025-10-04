@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi Pasaporte</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background-color: #fff;
+		}
+		header{
+			background-color: #fcc705;
+			text-align: center;
+			font-family: arial Black;
+			height: 80px;
+			width: 100%;
+        }
+        ul, ol{
+        	list-style: none;
+        }
+        .nav{
+        	width: 500px;
+        	margin: auto;
+        }
+        .nav  > li{
+        	float: left;
+        }
+        .nav li a{
+        	background-color: #000;
+        	color: #fff;
+        	text-decoration: none;
+        	padding: 10px 12px;
+        	display: block;
+        }
+        .nav li a:hover{
+        	background-color: #434343;
+        }
+        .nav li ul{
+        	display: none;
+        	position: absolute;
+        	min-width: 140px;
+        	text-align: left;
+        }
+        .nav li:hover > ul{
+        	display: block;
+        }
+        .nav li ul li {
+        	position: relative;
+        }
+        .nav li ul li ul{
+        	right: -140px;
+        	top: 0px;
+        }
+        nav{
+			border: 1px solid black;
+			background-color:  #000;
+			text-align: center;
+			font-family: arial black;
+			height: 42px;
+			width: 100%;
+        }
+        main{
+			text-align: center;
+			font-family: arial black;
+			min-height: calc(100vh - 100px);
+			width: 100%;
+			margin-bottom: 10px;
+			display: flex;	
+        }
+        article{
+        	margin: 15px;
+        	border-radius: 20px;
+			background-color: #FFD230;
+			text-align: center;
+			font-family: arial black;
+			min-height: 100%;
+			width: 80%;
+			margin-bottom: 10px;
+        }
+        section{
+        	border-radius: 20px;
+			background-color: #9AE630;
+			text-align: justify;
+			font-family: Bahnschrift Light;
+			padding: 20px;
+			width: 90%;
+			margin-bottom: 10px;
+			margin: 20px;
+			margin-top: 20px;
+		}
+	   aside{
+			border-radius: 10px;
+			
+			text-align: left;
+			font-family: arial black;
+			min-height: 100%;
+			width: 18%;
+			margin-bottom: 10px;
+			margin-left: 15px;
+			padding-top: 10px;
+			padding-left: 15px;
+			position: fixed;
+			right: 0;
+        }
+        footer{
+			border: 1px solid black;
+			background-color: #fcb612;
+			text-align: center;
+			font-family: arial black;
+			min-height: 50px;
+			width: 100%;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			color: #000;
+			text-shadow: 2px 2px 10px gray;
+        }
+        img{
+        	height: 200px;
+        	border-radius: 5px;
+        	box-shadow: black 10px 5px 10px;
+        }
+        a{
+        	text-decoration: none;
+        	color: black;
+        	padding-left: 15px;
+        }
+	</style>
+</head>
+<body>
+	<header><h2>MI PASAPORTE AL EXITO LCM</h2>
+		Bachillerato en Computación con Orientación Científica
+	</header>
+	<nav>
+		<ul class="nav">
+			<li><a href="#nuevo">Inicio</a></li>
+			<li><a href="#ini">Sobre la carrera</a></li>
+			<li><a href="">Cursos</a>
+				<ul>
+					<li><a href="#ef">Educación Física</a></li>
+					<li><a href="#it">Inglés Técnico</a></li>
+					<li><a href="#ci">Computación/Instalación</a></li>
+					<li><a href="#cl">Comunicacción</a></li>
+					<li><a href="#ff">Física</a></li>
+					<li><a href="#ma">Matemática</a></li>
+					<li><a href="#cg">Contabilidad</a></li>
+					<li><a href="#es">Estudio Sociales</a></li>
+					<li><a href="#pr">Programación</a></li>
+					<li><a href="#ee">Estadística</a></li> 
+				</ul></li>
+			<li><a href="#con">Logo</a></li>
+		</ul>
+	</nav>
+	<main>
+		<article>
+			<section id="ini">
+				<h1 id="sn">SOBRE LA CARRERA</h1>
+				<br>
+				<h2 id="mis">Bachillerato en Computación en Orientación Científica</h2>
+				<p>La carrera trata de formar estudiantes con bases sólidas en ciencias como matemáticas, física, química y computación, preparándolos para resolver problemas complejos y para seguir carreras universitarias en diversas ingenierías o sistemas de información. El programa desarrolla habilidades de programación, soporte técnico y uso responsable de la tecnología, combinando conocimientos teóricos con práctica para una formación integral en el campo científico y tecnológico. </p>
+				<center><img src="https://electrocelemanuel.wordpress.com/wp-content/uploads/2018/08/sistemas_0.jpg"></center>
+            </section>
+			<section id="pro">
+				<h1 id="cur">CURSOS</h1>
+				<hr><br>
+				<h2 id="ef">Educación Física</h2>
+				<p>Este curso trata de la adquisición de un estilo de vida activo y saludable, mediante el desarrollo de habilidades motrices, la promoción de la salud, el conocimiento del propio cuerpo y el fomento de valores como el respeto, la cooperación y la solidaridad a través del juego, el deporte y otras actividades físicas. </p><br>
+				<center><img src="https://www.universidadviu.com/sites/universidadviu.com/files/images/shutterstock_2318065765%20%281%29.jpg"></center><br>
+				<hr><br>
+				<h2 id="it">Inglés Técnico</h2>
+				<p>Este curso trata de enseñar el vocabulario, las expresiones y el lenguaje específico de un sector profesional o campo técnico particular, como la ingeniería, la informática o la medicina, con el objetivo de que los profesionales puedan comunicarse con precisión en su ámbito laboral, interpretar documentos especializados y mejorar su desempeño profesional. </p><br>
+				<center><img src="https://promova.com/_next/image?url=https%3A%2F%2Fpromova.com%2Fcontent%2Ftechnical_language_and_technical_english_855549dd4e.png&w=3840&q=75&dpl=dpl_Hx9ZorGfkdTD8v8EAHkDTDPcWNNk"></center><br>
+				<hr><br>
+				<h2 id="ci">Computación/Instalación de software</h2>
+				<p>Este curso trata de enseñar a identificar diferentes tipos de software, instalar sistemas operativos y otros programas en computadoras, resolver problemas durante el proceso, y comprender la importancia de mantener el software actualizado por seguridad. Los estudiantes aprenden a usar herramientas informáticas, configurar redes básicas, y brindar soporte al usuario, aplicando estos conocimientos en tareas prácticas y de laboratorio. </p><br>
+				<center><img src="https://cdn.goconqr.com/uploads/node/image/63260455/desktop_d351f301-cf00-4883-85d0-d905182e7d54.png"></center><br>
+				<hr><br>
+				<h2 id="cl">Comunicación y Lenguaje</h2>
+				<p>Este curso trata de buscar y desarrollar habilidades para comprender y producir mensajes de manera oral y escrita, utilizando el lenguaje de forma eficaz y crítica en diversos contextos. Se enfoca en perfeccionar las cuatro habilidades comunicativas: comprender, hablar, leer y escribir, explorando la naturaleza del lenguaje y su relación con la cultura y el pensamiento. </p><br>
+				<center><img src="https://s1.significados.com/foto/lenguaje-og.jpg"></center><br>
+				<hr><br>
+				<h2 id="ff">Física Fundamental</h2>
+				<p>Este curso trata de el estudio de las leyes y principios básicos que rigen el universo, como la mecánica clásica, el electromagnetismo, la termodinámica y la relatividad, introduciendo también conceptos clave como el movimiento, la materia, la energía, el tiempo y el espacio. El objetivo es comprender la naturaleza y las interacciones entre los componentes del universo a través de un enfoque teórico y experimental, desarrollando habilidades analíticas y de resolución de problemas. </p><br>
+				<center><img src="https://img.freepik.com/vector-gratis/diferentes-equipos-ciencia-sobre-fondo-blanco_1308-98941.jpg?semt=ais_hybrid&w=740&q=80"></center><br>
+				<hr><br>
+				<h2 id="ma">Matemática</h2>
+				<p>Este curso trata de el estudio abstracto de números, cantidades, espacio y las relaciones que existen entre ellos, con el fin de desarrollar habilidades analíticas y de resolución de problemas aplicables a diversas áreas de la vida. Los cursos pueden abarcar desde conceptos básicos como aritmética y álgebra hasta temas más avanzados como cálculo, estadística, geometría y programación, dependiendo del nivel de estudio. </p><br>
+				<center><img src="https://i.pinimg.com/736x/04/98/29/0498299ebc642cfdb6ee03e4ae745f1c.jpg"></center><br>
+				<hr><br>
+				<h2 id="cg">Contabilidad</h2>
+				<p>Este curso trata de enseñar a registrar y analizar la información financiera de una empresa, como gastos e ingresos, para elaborar estados financieros como el balance general y el estado de resultados. Los participantes aprenden el ciclo contable, el manejo de herramientas como Excel y software contable, y desarrollan habilidades para interpretar informes y tomar decisiones económicas. </p><br>
+				<center><img src="https://media.istockphoto.com/id/1438425017/es/vector/contabilidad-de-negocios-an%C3%A1lisis-de-auditor%C3%ADa-interna-an%C3%A1lisis-vectorial-mesa-escritorio-o.jpg?s=612x612&w=0&k=20&c=6zrF3IRn_8ZDNy05mERgeG-zjIeasCHsSRbmP1BSH_4="></center><br>
+				<hr><br>
+				<h2 id="es">Estudio Sociales</h2>
+				<p>Este curso trata de abarca el estudio de la sociedad, la historia y el mundo, buscando preparar a los estudiantes para la ciudadanía democrática mediante el desarrollo de una visión crítica y una comprensión de la interdependencia global. Se enfoca en la interacción entre individuos, comunidades y sistemas a través del tiempo y el espacio, integrando disciplinas como la historia, geografía y las ciencias sociales para explicar el origen, desarrollo y funcionamiento de las sociedades humanas. </p><br>
+				<center><img src="https://assets.puzzlefactory.com/puzzle/276/559/original.jpg"></center><br>
+				<hr><br>
+				<h2 id="pr">Programación</h2>
+				<p>Este curso trata de enseñar a resolver problemas y a crear herramientas informáticas mediante el uso de lenguajes de programación, como Python o JavaScript. Los estudiantes aprenden a diseñar algoritmos (secuencias de pasos), a usar funciones y estructuras de control (como condicionales y bucles), y a manejar tipos de datos. El curso abarca desde la lógica de programación hasta el desarrollo de aplicaciones web y móviles, preparando a los participantes para la industria tecnológica. </p><br>
+				<center><img src="https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513.jpg"></center><br>
+				<hr><br>
+				<h2 id="ee">Estadística</h2>
+				<p>Este curso trata de ecolección, organización, análisis e interpretación de datos para explicar fenómenos, comparar información y tomar decisiones basadas en evidencia cuantitativa. Los estudiantes aprenden a utilizar técnicas de estadística descriptiva e inferencial, como el uso de indicadores, tablas y gráficos, y el manejo de software especializado, para convertir datos numéricos en información útil. </p><br>
+				<center><img src="https://s1.significados.com/foto/estadistica-como-herramienta-de-analisis.jpg?class=article"></center><br>
+			</section>
+			<section id="con">
+				<h1 id="jor">LOGO LCM</h1>
+				<ul>
+					<li> <center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvGQInlqL3WQx3fFC79OtuIZzEJvAsL_M2YA&s"></center></li>
+			    </ul>
+			</section>
+		</article>
+		<aside>
+			<center>
+			<h5 class="barral">Contenido Relacionado</h5>
+			<hr>
+			<h4>Liceo Compu-Market</h4></center>
+			<br><br>
+			<ol>
+				<li><a href="https://www.waze.com/es-419/live-map/directions/liceo-compu-market-4a-avenida-29-villa-nueva?to=place.w.176554129.1765606829.10178819" target="Blank">Ubicación</a></li>
+				<li><a href="https://liceocompumarket.wordpress.com/about/" target="Blank">Historia</a></li>
+				<li><a href="https://www.facebook.com/LiceoCM/?locale=es_LA" target="Blank">Facebook</a></li>
+			</ol>
+		</aside>
+	</main>
+	<footer>
+		<div class="piepag">
+			<h1>LICEO COMPU-MARKET</h1>
+			<h2>4A. Avenida 6-29, Zona 1, Villa Nueva, Guatemala</h2>
+			<h3>Teléfono: 6636 0705</h3>
+			<h3>Tu pasaporte al exito</h3>
+			<p></p>
+		</div>
+	</footer> 
+
+</body>
+</html>
